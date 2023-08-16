@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+header {
+    height: 65px;
+    position: relative;
+    border-bottom: 1px solid #dee2e6;
+    transform: translateY(0%);
+    background: #dee2e6;
+}
+#wrapper {
+    height: auto;
+    min-height: calc(100% - 65px);
+    padding-bottom: 65px;
+}
+footer{
+    height: 65px;
+    position : relative;
+    transform : translateY(-100%);
+    background: #dee2e6;
+    border-top : 1px solid #dee2e6;
+}
+a{
+    color:black;
+}
